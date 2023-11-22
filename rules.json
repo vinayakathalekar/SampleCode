@@ -1,0 +1,173 @@
+[
+  {
+    "conditions": {
+      "all": [
+        {
+          "name": "treatment",
+          "operator": "contains",
+          "value": [
+            "Dental Bleaching",
+            "Examination",
+            "Dental Assessment",
+            "Oral Examination",
+            "Scaling & Polishing",
+            "Dental Cleaning",
+            "Dental Prophylaxis",
+            "Tooth Polishing",
+            "Dental Radiography",
+            "Radiographic imaging",
+            "Fluoride Treatment",
+            "Topical fluoride application",
+            "Dental restoration",
+            "Filing & Filling",
+            "Root Canal Treatment",
+            "Endodontic treatment",
+            "Tooth Whitening Treatment"
+          ]
+        },
+        {
+          "name": "treatment",
+          "operator": "does_not_contain",
+          "value": [
+            "Dental Gaurd",
+            "Bite Gaurd",
+            "Toothbrushes",
+            "Toothpaste",
+            "Dental hygiene supplies",
+            "Dental self care items",
+            "Dental hygiene supplies",
+            "Oral care merchandise",
+            "Dental prosthetics",
+            "Dental plates",
+            "Full or partial dental sets",
+            "Tooth whitening",
+            "Tooth bleaching",
+            "Dental chromatic alteration",
+            "Teeth stain removal",
+            "Dental braces",
+            "Mouth guard"
+          ]
+        }
+      ]
+    },
+    "actions": [
+      {
+        "name": "accept_bill"
+      }
+    ]
+  },
+  {
+    "conditions": {
+      "all": [
+        {
+          "name": "treatment",
+          "operator": "does_not_contain",
+          "value": [
+            "Dental Bleaching",
+            "Examination",
+            "Dental Assessment",
+            "Oral Examination",
+            "Scaling & Polishing",
+            "Dental Cleaning",
+            "Dental Prophylaxis",
+            "Tooth Polishing",
+            "Dental Radiography",
+            "Radiographic imaging",
+            "Fluoride Treatment",
+            "Topical fluoride application",
+            "Dental restoration",
+            "Filing & Filling",
+            "Root Canal Treatment",
+            "Endodontic treatment",
+            "Tooth Whitening Treatment"
+          ]
+        },
+        {
+          "name": "treatment",
+          "operator": "contains",
+          "value": [
+            "Dental Gaurd",
+            "Bite Gaurd",
+            "Toothbrushes",
+            "Toothpaste",
+            "Dental hygiene supplies",
+            "Dental self care items",
+            "Dental hygiene supplies",
+            "Oral care merchandise",
+            "Dental prosthetics",
+            "Dental plates",
+            "Full or partial dental sets",
+            "Tooth whitening",
+            "Tooth bleaching",
+            "Dental chromatic alteration",
+            "Teeth stain removal",
+            "Dental braces",
+            "Mouth guard"
+          ]
+        }
+      ]
+    },
+    "actions": [
+      {
+        "name": "reject_bill"
+      }
+    ]
+  },
+  {
+    "conditions": {
+      "all": [
+        {
+          "name": "treatment",
+          "operator": "does_not_contain",
+          "value": [
+            "Dental Bleaching",
+            "Examination",
+            "Dental Assessment",
+            "Oral Examination",
+            "Scaling & Polishing",
+            "Dental Cleaning",
+            "Dental Prophylaxis",
+            "Tooth Polishing",
+            "Dental Radiography",
+            "Radiographic imaging",
+            "Fluoride Treatment",
+            "Topical fluoride application",
+            "Dental restoration",
+            "Filing & Filling",
+            "Root Canal Treatment",
+            "Endodontic treatment",
+            "Tooth Whitening Treatment"
+          ]
+        },
+        {
+          "name": "treatment",
+          "operator": "does_not_contain",
+          "value": [
+            "Dental Gaurd",
+            "Bite Gaurd",
+            "Toothbrushes",
+            "Toothpaste",
+            "Dental hygiene supplies",
+            "Dental self care items",
+            "Dental hygiene supplies",
+            "Oral care merchandise",
+            "Dental prosthetics",
+            "Dental plates",
+            "Full or partial dental sets",
+            "Tooth whitening",
+            "Tooth bleaching",
+            "Dental chromatic alteration",
+            "Teeth stain removal",
+            "Dental braces",
+            "Mouth guard"
+          ]
+        }
+      ]
+    },
+    "actions": [
+      {
+        "name": "verify_bill"
+      }
+    ]
+  }
+]

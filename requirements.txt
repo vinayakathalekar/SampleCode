@@ -1,0 +1,8 @@
+FastAPI
+uvicorn
+gunicorn
+gradio
+pydantic
+jinja2
+python-multipart
+gradio
